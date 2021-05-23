@@ -44,11 +44,11 @@
  	 	},
  	 	"printer": {
  	 	 	"name": {
- 	 	 	 	"trans": "เครื่องพิมพ์โมเลกุลสามมิติ",
+ 	 	 	 	"trans": "เครื่องพิมพ์สามมิติระดับโมเลกุล",
  	 	 	 	"eng": "Molecular 3d Printer"
  	 	 	},
  	 	 	"tut": {
- 	 	 	 	"trans": "คุณสามารถใช้แคชของคุณเพื่อพิมพ์อุปกรณ์ชิ้นใหม่ได้ที่นี่",
+ 	 	 	 	"trans": "คุณสามารถใช้พิมพ์เขียวของคุณเพื่อพิมพ์อุปกรณ์ชิ้นใหม่ได้ที่นี่",
  	 	 	 	"eng": "You can use your Cache to print new equipment here"
  	 	 	}
  	 	},
@@ -233,7 +233,7 @@
  	 	 	 	 	"vars": [
  	 	 	 	 	 	"mainHubName"
  	 	 	 	 	],
- 	 	 	 	 	"trans": "กลับไปยัง ${mainHubName}",
+ 	 	 	 	 	"trans": "กลับไปยัง${mainHubName}",
  	 	 	 	 	"eng": "Return to ${mainHubName}"
  	 	 	 	}
  	 	 	},
@@ -242,14 +242,14 @@
  	 	 	 	 	"vars": [
  	 	 	 	 	 	"segmentStationName"
  	 	 	 	 	],
- 	 	 	 	 	"trans": "กลับไปที่ ${segmentStationName}",
+ 	 	 	 	 	"trans": "กลับไปที่${segmentStationName}",
  	 	 	 	 	"eng": "back to ${segmentStationName}"
  	 	 	 	},
  	 	 	 	"description": {
  	 	 	 	 	"vars": [
  	 	 	 	 	 	"segmentStationName"
  	 	 	 	 	],
- 	 	 	 	 	"trans": "กลับไปยัง ${segmentStationName}",
+ 	 	 	 	 	"trans": "กลับไปยัง${segmentStationName}",
  	 	 	 	 	"eng": "return to ${segmentStationName}"
  	 	 	 	}
  	 	 	},
@@ -287,7 +287,7 @@
  	 	 	 	 	"vars": [
  	 	 	 	 	 	"zoneName"
  	 	 	 	 	],
- 	 	 	 	 	"trans": "ไปยัง ${zoneName}",
+ 	 	 	 	 	"trans": "ไปยัง${zoneName}",
  	 	 	 	 	"eng": "Go to ${zoneName}"
  	 	 	 	}
  	 	 	},
@@ -295,7 +295,7 @@
  	 	 	 	"vars": [
  	 	 	 	 	"segmentDisplayName"
  	 	 	 	],
- 	 	 	 	"trans": "${segmentDisplayName} station",
+ 	 	 	 	"trans": "สถานี${segmentDisplayName}",
  	 	 	 	"eng": "${segmentDisplayName} station"
  	 	 	},
  	 	 	"description": {
@@ -314,7 +314,7 @@
  	 	 	 	"vars": [
  	 	 	 	 	"levelName"
  	 	 	 	],
- 	 	 	 	"trans": "เศษชิ้นส่วนของประสบการณ์ [${levelName}]",
+ 	 	 	 	"trans": "เศษชิ้นส่วนของประสบการณ์[${levelName}]",
  	 	 	 	"eng": "Experience Shard [${levelName}]"
  	 	 	},
  	 	 	"description": {
@@ -331,7 +331,7 @@
  	 	 	 	 	"segmentDisplayName",
  	 	 	 	 	"fragmentNum"
  	 	 	 	],
- 	 	 	 	"trans": "${segmentDisplayName} ชิ้นส่วนกุญแจหมายเลข ${fragmentNum}",
+ 	 	 	 	"trans": "ชิ้นส่วนกุญแจ${segmentDisplayName}หมายเลข${fragmentNum}",
  	 	 	 	"eng": "${segmentDisplayName} Key Fragment ${fragmentNum}"
  	 	 	},
  	 	 	"description": {
@@ -348,14 +348,14 @@
  	 	 	 	 	"tierName",
  	 	 	 	 	"typeName"
  	 	 	 	],
- 	 	 	 	"trans": "แคช ${tierName} ${typeName} ",
+ 	 	 	 	"trans": "พิมพ์เขียว${tierName}${typeName}",
  	 	 	 	"eng": "${tierName} ${typeName} cache"
  	 	 	},
  	 	 	"description": {
  	 	 	 	"vars": [
  	 	 	 	 	"typeName"
  	 	 	 	],
- 	 	 	 	"trans": "แคช ${typeName} ที่บรรจุข้อมูลสำหรับการพิมพ์สามมิติระดับโมเลกุล \r\n                    คุณสามารถสร้าง ${typeName} ด้วย [เครื่องพิมพ์สามมิติระดับโมเลกุล] ที่ [ส่วนกลาง.\r\n                    \r\n                    ทิปมือโปร: เลเวลของไอเทมที่คุณได้รับจากการพิมพ์จะขึ้นอยู่กับแรงก์การพิมพ์ของคุณ,\r\n                    ดังนั้นจึงพิมพ์อันขยะ ๆ ก่อน เนื่องจากพวกมันใช้เงินน้อยกว่ากว่าและเป็นประโยชน์แก่การเพิ่มเลเวลให้แรงก์การพิมพ์ของคุณ",
+ 	 	 	 	"trans": "พิมพ์เขียว${typeName}ที่บรรจุข้อมูลสำหรับการพิมพ์สามมิติระดับโมเลกุล \r\n                    คุณสามารถสร้าง${typeName}ด้วย[เครื่องพิมพ์สามมิติระดับโมเลกุล]ที่[ส่วนกลาง]\r\n                    \r\n                    ทิปมือโปร: เลเวลของไอเทมที่คุณได้รับจากการพิมพ์จะขึ้นอยู่กับแรงก์การพิมพ์ของคุณ,\r\n                    ดังนั้นจึงพิมพ์อันขยะ ๆ ก่อน เนื่องจากพวกมันใช้เงินน้อยกว่ากว่าและเป็นประโยชน์แก่การเพิ่มเลเวลให้แรงก์การพิมพ์ของคุณ",
  	 	 	 	"eng": "A ${typeName} cache contains information used for Molecular 3D Printing, \r\n                    You can create a ${typeName} with the [Molecular 3d Printer] at [Central Hub].\r\n                    \r\n                    Pro tip: The level of item you get from printing is determined by your Printing Rank,\r\n                    so always print the trash ones first, as they cost less and useful to level up your Printing Rank"
  	 	 	}
  	 	},
@@ -435,83 +435,83 @@
  	 	 	 	"eng": "Military Nano Medic Bot"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "Injectable nano machines that are standard issue for military use. Capable of patching injuries while in combat.",
+ 	 	 	 	"trans": "เครื่องกลนาโนแบบฉีดได้ซึ่งเป็นมาตรฐานการใช้งานทางทหาร สามารถใช้รักษาอาการบาดเจ็บระหว่างการต่อสู้ได้",
  	 	 	 	"eng": "Injectable nano machines that are standard issue for military use, capable of patching injuries while in combat."
  	 	 	}
  	 	},
  	 	"healing6": {
  	 	 	"name": {
- 	 	 	 	"trans": "Advanced Nano Medic Bot",
+ 	 	 	 	"trans": "หุ่นยนต์นาโนขั้นสูงสำหรับการแพทย์",
  	 	 	 	"eng": "Advanced Nano Medic Bot"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "Injectable nano machines that are used in the military. They are capable of patching injuries while in combat.",
+ 	 	 	 	"trans": "เครื่องกลนาโนแบบฉีดได้ซึ่งถูกใช้ในวงการทหาร พวกมันสามารถรักษาอาการบาดเจ็บระหว่างการต่อสู้ได้",
  	 	 	 	"eng": "Injectable nano machines that are used in the military. They are capable of patching injuries while in combat."
  	 	 	}
  	 	},
  	 	"healing7": {
  	 	 	"name": {
- 	 	 	 	"trans": "High Quality Nano Medic Bot",
+ 	 	 	 	"trans": "หุ่นยนต์นาโนคุณภาพสูงสำหรับการแพทย์",
  	 	 	 	"eng": "High Quality Nano Medic Bot"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "Injectable nano machines that are for advanced military use. Capable of patching up injuries in combat situations.",
+ 	 	 	 	"trans": "เครื่องกลนาโนแบบฉีดได้ซึ่งมีไว้ใช้ในการทหารขั้นสูง สามารถใช้รักษาอาการบาดเจ็บระหว่างสถานการณ์การสู้รบได้",
  	 	 	 	"eng": "injectable nano machines that is for advance military use, capable of patching injury in combat situation"
  	 	 	}
  	 	},
  	 	"healing8": {
  	 	 	"name": {
- 	 	 	 	"trans": "Rare Nano Medic Bot",
+ 	 	 	 	"trans": "หุ่นยนต์นาโนแบบหายากสำหรับการแพทย์",
  	 	 	 	"eng": "Rare Nano Medic Bot"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "Injectable nano machines that are for advanced military use. Capable of patching up injuries in combat situations.",
+ 	 	 	 	"trans": "เครื่องกลนาโนแบบฉีดได้ซึ่งมีไว้ใช้ในการทหารขั้นสูง สามารถใช้รักษาอาการบาดเจ็บระหว่างสถานการณ์การสู้รบได้",
  	 	 	 	"eng": "injectable nano machines that is for advance military use, capable of patching injury in combat situation"
  	 	 	}
  	 	},
  	 	"healingArea1": {
  	 	 	"name": {
- 	 	 	 	"trans": "Pain Away Spray",
+ 	 	 	 	"trans": "สเปรย์แก้ปวด",
  	 	 	 	"eng": "Pain Away Spray"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "Do you and your friend have headaches? Use Pain Away Spray™ to relieve your pain!",
+ 	 	 	 	"trans": "คุณและเพื่อนของคุณรู้สึกปวดหัวเหรอเปล่า? ใช้สเปรย์แก้ปวด™ เพื่อบรรเทาอาการสิ!",
  	 	 	 	"eng": "Do you and your friend have headache together? use Pain Away Spray™ to relief your pain!"
  	 	 	}
  	 	},
  	 	"healingArea2": {
  	 	 	"name": {
- 	 	 	 	"trans": "Degraded Repair drone",
+ 	 	 	 	"trans": "โดรนโทรม ๆ สำหรับการซ่อมแซม",
  	 	 	 	"eng": "Degraded Repair drone"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "An old repair drone, capable of repairing or healing nearby players.",
+ 	 	 	 	"trans": "โดรนเก่าครึสำหรับการซ่อมแซม, สามารถใช้ซ่อมแซมหรือรักษาผู้เล่นในระยะก็ได้",
  	 	 	 	"eng": "Old repair drone, capable of repair or heal nearby players"
  	 	 	}
  	 	},
  	 	"healingArea3": {
  	 	 	"name": {
- 	 	 	 	"trans": "Degraded Nano Medic Drone",
+ 	 	 	 	"trans": "โดรนนาโนโทรม ๆ สำหรับการแพทย์",
  	 	 	 	"eng": "Degraded nano medic drone"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "An old nano medic drone, capable of dispatching thousands of nano machines to heal nearby players.",
+ 	 	 	 	"trans": "โดรนนาโนเก่าครึสำหรับการแพทย์, สามารถส่งเครื่องกลนาโนนับพันออกไปรักษผู้เล่นในระยะได้",
  	 	 	 	"eng": "Old nano drone, capable of dispatching thousands of nano machines to heal nearby players"
  	 	 	}
  	 	},
  	 	"healingArea4": {
  	 	 	"name": {
- 	 	 	 	"trans": "Nano Medic Drone",
+ 	 	 	 	"trans": "โดรนนาโนสำหรับการแพทย์",
  	 	 	 	"eng": "Nano medic drone"
  	 	 	},
  	 	 	"description": {
- 	 	 	 	"trans": "Capable of dispatching thousands of nano machines to heal nearby players.",
+ 	 	 	 	"trans": "สามารถส่งเครื่องกลนาโนนับพันออกไปรักษผู้เล่นในระยะได้",
  	 	 	 	"eng": "capable of dispatching thousands of nano machines to heal nearby players"
  	 	 	}
  	 	},
  	 	"healingArea5": {
  	 	 	"name": {
- 	 	 	 	"trans": "Military Nano Medic Drone",
+ 	 	 	 	"trans": "โดรนนาโนเกรดกองทัพาำหรับการแทพย์",
  	 	 	 	"eng": "Military Nano medic drone"
  	 	 	},
  	 	 	"description": {
